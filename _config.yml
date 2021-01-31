@@ -25,58 +25,57 @@ title:                 iSwan
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  초보 개발자 iSwan/EleMas*의 일상 보따리
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               I have nothing productive all day (🤯)
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Programming, Hatsune Miku, Subculture, Technology, Network]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Seungwan Goh
-  email:               emakr518@gmail.com
+  email:               iswan@iswan.kr
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             EleMas_Akr
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
-  - title:             Projects
-    url:               /projects/
+  - title:             About
+    url:               /about/
+  - title:             All Posts
+    url:               /posts/
+  - title:             Lifelog
+    url:               /lifelog/
+  - title:             Technical
+    url:               /technical/
+  - title:             Subculture
+    url:               /subculture/
   - title:             Résumé*
     url:               /resume/
-  - title:             Documentation
-    url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  - title:             Licenses
+    url:               /licenses/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. All rights reserved.
+copyright:             © 2020. iSwan (EleMas*) All rights reserved.
 
 # Format of the permalinks
-permalink:             /blog/:categories/:year-:month-:day-:title/
+permalink:             /:categories/:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /blog/:num/
+paginate_path:         /:num/
 
 
 # Theme
@@ -171,7 +170,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-188518362-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -286,7 +285,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /blog/:name/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
@@ -311,7 +310,7 @@ exclude:
   - Gemfile.lock
 include:
   - .well-known
-  - LICENSE.md
+#  - LICENSE.md
 
 
 # Plugins

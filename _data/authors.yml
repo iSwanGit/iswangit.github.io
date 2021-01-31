@@ -2,35 +2,31 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Seungwan Goh
+  email:             iswan@iswan.kr
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+    최근들어 Java와 TypeScript의 매력에 빠져 있으며, 하츠네 미쿠를 좋아합니다. 풀스택과 덕업일치를 꿈꾸지만 일상생활도 잘 하는 혼모노가 되기 위해 노력하고 있습니다. 😊
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/author_500.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            /assets/img/author_300.jpg
+      2x:            /assets/img/author_500.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    twitter:         EleMas_Akr
+    github:          iSwanGit
+    email:           iswan@iswan.kr
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        swan518
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>

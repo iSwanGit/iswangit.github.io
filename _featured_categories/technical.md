@@ -1,17 +1,18 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: grid
+# layout: list
+# temporarily
+layout: page
 
 # The title of the tag's page.
-title: Example
+title: Technical
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: example
+slug: technical
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  프로그래밍 / 기술 이야기
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
@@ -20,3 +21,6 @@ no_groups: true
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
+
+<!-- temp -->
+아직 글이 없습니다..!
