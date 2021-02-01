@@ -50,8 +50,6 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             All Posts
-    url:               /posts/
   - title:             Lifelog
     url:               /lifelog/
   - title:             Technical
