@@ -24,6 +24,16 @@ layout: base
   <div class="columns contact {% unless no_third_column %}columns-break{% endunless %}">
     {% include pro/resume/basics.html %}
     {% include pro/resume/profiles.html %}
+    <!-- GitHub grass -->
+    {% for social in basics.profiles %}
+      {% assign type = social.network | downcase %}
+      {% if type == 'github' %}
+        {% capture username %}{{ social.username }}{% endcapture %}
+        {% include pro/resume/githubgrass.html username=social.username %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    <!-- -->
   </div>
 
   {% comment %}
