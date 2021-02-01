@@ -24,7 +24,6 @@ layout: base
   <div class="columns contact {% unless no_third_column %}columns-break{% endunless %}">
     {% include pro/resume/basics.html %}
     {% include pro/resume/profiles.html %}
-    <!-- GitHub grass -->
     {% for social in basics.profiles %}
       {% assign type = social.network | downcase %}
       {% if type == 'github' %}
@@ -33,7 +32,6 @@ layout: base
         {% break %}
       {% endif %}
     {% endfor %}
-    <!-- -->
   </div>
 
   {% comment %}
