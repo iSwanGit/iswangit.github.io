@@ -333,7 +333,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: WVbY8B4I5Sq5FHj3LR7o1BMSlH3enmkiVVIA0mUhLQ4
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
