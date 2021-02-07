@@ -8,8 +8,9 @@ basics:
   email: "iswan@iswan.kr"
   phone: "(+82) 50-6701-7873"
   website: "https://blog.iswan.kr"
-  summary: >
-    흐으으음 작성해야해요
+  summary: |
+    안녕하세요, 끊임없이 발전하는 세상 속에서 성장하는 주니어 개발자 고승완입니다.
+    프론트엔드, 백엔드 구분을 떠나 다양한 개발 지식을 키우고자 노력하고 있습니다.
   location:
     # address: "2712 Broadway St"
     # postalCode: "CA 94115"
@@ -47,15 +48,17 @@ volunteer:
     highlights:
       - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - certificate: "Engineer Information Processing (정보처리기사)"
+    date: "2019-11-22"
+  - institution: "Kyung Hee University"
+    area: "Computer Science and Engineering"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+    startDate: "2012-03-02"
+    endDate: "2018-08-22"
+    # gpa: "4.0"
+    # courses:
+      # - "DB1101 - Basic SQL"
+      # - "CS2011 - Java Introduction"
 awards:
   - title: "Digital Compression Pioneer Award"
     date: "2014-11-01"
