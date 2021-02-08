@@ -2,9 +2,10 @@
 layout: resume
 title: Résumé*
 description: >
-  This is the `description` of your resume page, as it will be seen by search engines.
-  You'll probably want to modify it in `resume.md`, and maybe set `hide_description` to `true` in the front matter.
+  안녕하세요, 끊임없이 발전하는 세상 속에서 노력하며 성장하는 주니어 개발자입니다.
 hide_description: true
+image:
+  path: /assets/img/thumbnail_default.jpg
 left_column:
   - work
   - volunteer
