@@ -36,16 +36,6 @@
           | replace:"<!--area-->", area
           | replace:"<!--institution-->", institution
         }}
-<!-- 주석 닫는거 삭제 복원 확인 -->
-<!-- 
-        {{ strings.resume.education_title
-          | default:"<!--study_type-- in <!--area-- from <!--institution-- with GPA of <!--gpa--"
-          | replace:"<!--study_type--", study_type
-          | replace:"<!--area--", area
-          | replace:"<!--institution--", institution
-          | replace:"<!--gpa--", gpa
-        }}
--->
       </h3>
       {% endif %}
     </header>
