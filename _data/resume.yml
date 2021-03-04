@@ -6,7 +6,7 @@ basics:
   label: "Programmer"
   picture: "/assets/img/resume_profile_edit.jpg"
   email: "iswan@iswan.kr"
-  phone: "(+82) 50-6701-7873"
+  # phone: ""
   website: "https://blog.iswan.kr"
   summary: |
     안녕하세요, 끊임없이 발전하는 세상 속에서 성장하는 주니어 개발자 고승완입니다.

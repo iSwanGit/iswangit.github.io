@@ -91,6 +91,15 @@
       <meta property="telephone" content="{{ basics.phone }}"/>
       <a href="tel:{{ basics.phone | replace:' ','' }}" class="external no-print-link tel p-tel">{{ basics.phone }}</a>
     </dd>
+  {% else %}
+    <dt class="faded">
+      <span class="{{ icons.phone | default:'icon-phone' }}" title="{{ strings.resume.phone | default:'Phone' }}"></span>
+      <span class="sr-only">{{ strings.resume.phone | default:"Phone" }}</span>
+    </dt>
+    <dd class="bold">
+      <meta property="telephone" content="{{ basics.phone }}"/>
+      <span class="external no-print-link tel p-tel">Please contact by email!</span>
+    </dd>
   {% endif %}
 
   {% if basics.website.size > 0 %}
