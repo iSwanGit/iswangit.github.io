@@ -2,7 +2,7 @@
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
 # layout: list
 # temporarily
-layout: page
+layout: list
 
 # The title of the tag's page.
 title: Technical
@@ -22,5 +22,3 @@ no_groups: true
 sitemap: false
 ---
 
-<!-- temp -->
-아직 글이 없습니다..!
