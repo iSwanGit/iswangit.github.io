@@ -17,7 +17,7 @@ random_posts: ''
 
 조금 된 이야기인데, 평소 로컬에서부터 리포지토리를 생성해오던 나는 어느날 GitHub의 한 리포지토리에서 브랜치 이름이 main인 것을 발견했다. 찾아보니 2020년 조지 플로이드 사망 사건 이후로 활발해진 Black Lives Matter 운동을 따라 GitHub이 10월 1일자로 기본 브랜치 이름을 바꿨다고 한다. ([The default branch for newly-created repositories is now main](https://github.blog/changelog/2020-10-01-the-default-branch-for-newly-created-repositories-is-now-main/){: target="_blank"})
 
-![github_branch_main](/assets/img/posts/github_main.png)
+![github_branch_main](/assets/img/posts/github_branch.png)
 
 기존의 기본 브랜치는 'master'로, 주인(master)과 노예(slave)를 연상시키기에 이를 'main'으로 대체한 것. (바뀐 지도 모르고 master 계속 쓰고 있었다)
 
