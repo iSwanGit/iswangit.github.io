@@ -6,7 +6,7 @@ category: technical
 # tags: technical
 description: >
   내 깃헙 커밋에 Verified 표시하여 간지를 내보자.
-related_posts: ''
+related_posts: '/technical/change-git-default-branch/'
 random_posts: ''
 ---
 
