@@ -1,8 +1,6 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-# layout: list
-# temporarily
-layout: page
+layout: grid
 
 # The title of the tag's page.
 title: Subculture
