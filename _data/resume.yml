@@ -16,7 +16,7 @@ basics:
     # postalCode: "CA 94115"
     # city: "San Francisco"
     countryCode: "KR"
-    region: "Daejeon"
+    region: "Seongnam, Gyeonggi"
   profiles:
     # - network: "Twitter"
     #   username: "EleMas_Akr"
@@ -24,16 +24,29 @@ basics:
     - network: "Github"
       username: "iSwanGit"
       url: "https://github.com/iSwanGit"
+    - network: "Github"
+      username: "hexaKermit"
+      url: "https://github.com/hexaKermit"
 work:
+  - company: "HEXAI Corp."
+    position: "Manager"
+    website: "https://hexai.co.kr"
+    startDate: "2021-10-01"
+    endDate: ""
+    summary: >
+        푸드 특화 기업으로 SmartFarm 키워드 중심의 시스템 개발 및 기타 사내 소프트웨어 제반 업무를 담당하고 있습니다.
+    highlights:
+      - "MES: Django/DRF"
+      - "Web App: React, Spring Boot, JPA with QueryDSL"
   - company: "RASTECH Co., Ltd."
     position: "Research Engineer"
     website: "https://rastech.co.kr"
     startDate: "2020-02-03"
-    endDate: ""
+    endDate: "2021-09-17"
     summary: >
-        로봇 관련 사업부의 소프트웨어 파트 일원으로서 로봇의 콘텐츠 및 관리 분야의 업무를 주로 맡고 있습니다.
+        로봇 관련 사업부(연구소)의 소프트웨어 파트 일원으로서 로봇의 콘텐츠 관리 및 관제 분야의 업무를 주로 맡았습니다.
     highlights:
-      - "사내 인사/자산관리 시스템 보수 [Java / Spring(eGOV)]"
+      - "사내 인사/자산관리 시스템 보수 [JSP / Spring(eGOV)]"
       - "로봇 관제 프로그램 유지보수 및 기능개발 [C# / WinForm]"
       - "로봇 및 충전 스테이션 모니터링 프로그램 개발 [Node.js / Electron, React]"
       - "신규 개발 로봇 플랫폼의 관제 시스템 기획 및 개발 [Node.js, Java / Angular, ROS2, Spring Boot]"
@@ -45,10 +58,11 @@ work:
     summary: >
         주 업무 외의 순수 개인적(비사업성) 활동으로서, 서브컬처 분야에서 웹 기반의 여러 서비스들을 제공합니다.
     highlights:
-      - "<a href=\"https://mikuwallets.kr\" target=\"_blank\">미쿠월렛즈</a> 블로그 및 메일서버 운영"
-      - "<a href=\"https://piastar.hatsunemiku.kr\" target=\"_blank\">피아프로 스타즈</a> 웹 개발 (FE) 및 운영"
-      - "일러스트 콘테스트 <a href=\"https://hatsunemiku.co.kr/contest/\" target=\"_blank\">#39CC</a> 웹 개발 (BE) 및 운영"
+      - "<a href=\"https://mikuwallets.kr\" target=\"_blank\" rel=\"noreferer noopener\">미쿠월렛즈</a> 블로그 및 메일서버 운영"
+      - "<a href=\"https://piastar.hatsunemiku.kr\" target=\"_blank\" rel=\"noreferer noopener\">피아프로 스타즈</a> 웹 개발 (FE) 및 운영"
+      - "일러스트 콘테스트 <a href=\"https://hatsunemiku.co.kr/contest/\" target=\"_blank\" rel=\"noreferer noopener\">#39CC</a> 웹 개발 (BE) 및 운영"
       - "디스코드 커뮤니티 MMK 서버 내 봇 서비스, 관리 툴 개발 및 운영"
+      - "디스코드 뮤직 봇 (<a href=\"https://github.com/MikuWallets/djyurika_js\" target=\"_blank\" rel=\"noreferer noopener\">DJ Yurika</a>) 개발, 개인용도로 확장"
 volunteer:
   - organization: "HACKER (edu club)"
     position: "Director of Education"
@@ -89,6 +103,7 @@ skills:
       - "Angular"
       - "React"
       - "Spring Boot"
+      - "Django"
       - "Nginx"
   - name: "Programming"
     level: "Amateur"
@@ -111,7 +126,7 @@ skills:
       - "Linux"
       - "Docker"
   - name: "Algorithm"
-    level: "Novice"
+    level: "Junior"
 languages:
   - language: "Korean"
     fluency: "Native speaker"
@@ -134,6 +149,9 @@ interests:
     keywords:
       - "Hatsune Miku"
       - "Creative"
+      - "ISEGYE IDOL"
+      - "Metaverse"
+      - "Itasha"
   - name: "Activity"
     keywords:
       - "Bowling"
