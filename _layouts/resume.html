@@ -29,7 +29,7 @@ layout: base
       {% if type == 'github' %}
         {% capture username %}{{ social.username }}{% endcapture %}
         {% include pro/resume/githubgrass.html username=social.username %}
-        {% break %}
+        {% continue %}
       {% endif %}
     {% endfor %}
   </div>
